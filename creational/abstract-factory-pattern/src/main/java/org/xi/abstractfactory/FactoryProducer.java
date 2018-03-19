@@ -14,7 +14,7 @@ public class FactoryProducer {
      */
     public static GuiFactory getFactory(String appearance) throws Exception {
 
-        GuiFactory factory = null;
+        GuiFactory factory;
 
         if (appearance.equals("Mac")) {
             factory = new MacGuiFactory();
