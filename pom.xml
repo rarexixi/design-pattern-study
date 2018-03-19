@@ -11,6 +11,7 @@
 
     <modules>
         <module>creational/abstract-factory-pattern</module>
+        <module>creational/builder-pattern</module>
     </modules>
 
     <properties>
