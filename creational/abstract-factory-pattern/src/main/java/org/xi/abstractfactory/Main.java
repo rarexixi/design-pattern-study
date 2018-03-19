@@ -1,6 +1,7 @@
 package org.xi.abstractfactory;
 
-import org.xi.abstractfactory.action.Paint;
+import org.xi.abstractfactory.action.Clickable;
+import org.xi.abstractfactory.action.Paintable;
 import org.xi.abstractfactory.factory.GuiFactory;
 import org.xi.abstractfactory.factory.impl.MacGuiFactory;
 import org.xi.abstractfactory.factory.impl.WinGuiFactory;
@@ -11,22 +12,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        GuiFactory factory;
-
         String appearance = randomAppearance();
 
-        if (appearance.equals("Mac")) {
-            factory = new MacGuiFactory();
-        } else if(appearance.equals("Windows")) {
-            factory = new WinGuiFactory();
-        } else {
-            System.out.println("没有当前操作系统");
-            return;
+        GuiFactory factory;
+        try {
+            factory = FactoryProducer.getFactory(appearance);
+            Paintable paint = factory.createPaint();
+            paint.paintWindow();
+            Clickable clickable = factory.createButton();
+            clickable.click();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
-
-        Paint paint = factory.createPaint();
-        paint.paintButton();
-        paint.paintWindow();
     }
 
     public static String randomAppearance() {

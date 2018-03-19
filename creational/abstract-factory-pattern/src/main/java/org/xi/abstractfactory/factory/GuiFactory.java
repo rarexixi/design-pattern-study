@@ -1,12 +1,11 @@
 package org.xi.abstractfactory.factory;
 
-import org.xi.abstractfactory.action.Paint;
+import org.xi.abstractfactory.action.Clickable;
+import org.xi.abstractfactory.action.Paintable;
 
 public interface GuiFactory {
 
-    /**
-     *
-     * @return
-     */
-    Paint createPaint();
+    Paintable createPaint();
+
+    Clickable createButton();
 }

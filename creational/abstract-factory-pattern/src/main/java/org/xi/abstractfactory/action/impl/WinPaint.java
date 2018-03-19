@@ -1,21 +1,9 @@
 package org.xi.abstractfactory.action.impl;
 
-import org.xi.abstractfactory.action.Paint;
+import org.xi.abstractfactory.action.Paintable;
 
-public class WinPaint implements Paint {
+public class WinPaint implements Paintable {
 
-    /**
-     * 画出Windows按钮
-     */
-    @Override
-    public void paintButton() {
-
-        System.out.println("Win Button");
-    }
-
-    /**
-     * 画出窗口
-     */
     @Override
     public void paintWindow() {
 

@@ -1,17 +1,8 @@
 package org.xi.abstractfactory.action.impl;
 
-import org.xi.abstractfactory.action.Paint;
+import org.xi.abstractfactory.action.Paintable;
 
-public class MacPaint implements Paint {
-
-    /**
-     * 画出Mac按钮
-     */
-    @Override
-    public void paintButton() {
-
-        System.out.println("Mac Button");
-    }
+public class MacPaint implements Paintable {
 
     /**
      * 画出窗口
