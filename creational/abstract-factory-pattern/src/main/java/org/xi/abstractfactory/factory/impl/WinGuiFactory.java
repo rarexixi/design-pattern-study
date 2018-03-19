@@ -6,6 +6,9 @@ import org.xi.abstractfactory.action.impl.WinButton;
 import org.xi.abstractfactory.action.impl.WinPaint;
 import org.xi.abstractfactory.factory.GuiFactory;
 
+/**
+ *  windows 实例工厂
+ */
 public class WinGuiFactory implements GuiFactory {
 
     @Override
@@ -14,7 +17,7 @@ public class WinGuiFactory implements GuiFactory {
     }
 
     @Override
-    public Clickable createClick() {
+    public Clickable createButton() {
         return new WinButton();
     }
 }
