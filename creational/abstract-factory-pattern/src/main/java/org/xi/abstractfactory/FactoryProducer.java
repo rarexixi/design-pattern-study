@@ -6,6 +6,12 @@ import org.xi.abstractfactory.factory.impl.WinGuiFactory;
 
 public class FactoryProducer {
 
+    /**
+     *
+     * @param appearance
+     * @return
+     * @throws Exception
+     */
     public static GuiFactory getFactory(String appearance) throws Exception {
 
         GuiFactory factory = null;
