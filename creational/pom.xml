@@ -12,5 +12,10 @@
     <artifactId>creational</artifactId>
 
     <modules>
+        <module>abstract-factory-pattern</module>
+        <module>builder-pattern</module>
+        <module>factory-method-pattern</module>
+        <module>prototype-pattern</module>
+        <module>singleton-pattern</module>
     </modules>
 </project>

@@ -13,5 +13,7 @@
 
     <modules>
         <module>adapter-pattern</module>
+        <module>bridge-parttern</module>
+        <module>composite-pattern</module>
     </modules>
 </project>
