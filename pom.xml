@@ -10,14 +10,9 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <!-- creational pattern -->
-        <module>creational/abstract-factory-pattern</module>
-        <module>creational/builder-pattern</module>
-        <module>creational/factory-method-pattern</module>
-        <module>creational/prototype-pattern</module>
-        <module>creational/singleton-pattern</module>
-        <!-- structural pattern -->
-        <module>structural/adapter-pattern</module>
+        <module>creational</module>
+        <module>structural</module>
+        <module>behavioral</module>
     </modules>
 
     <properties>
