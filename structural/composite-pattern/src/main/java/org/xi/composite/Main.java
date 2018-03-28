@@ -2,7 +2,6 @@ package org.xi.composite;
 
 
 import org.xi.composite.composite.Employee;
-import org.xi.composite.composite.Introductive;
 import org.xi.composite.composite.Department;
 
 public class Main {
