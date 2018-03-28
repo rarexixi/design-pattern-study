@@ -8,7 +8,7 @@ public class ComputerFacade {
 
     final static long BOOT_ADDRESS = 0x100000;
     final static long BOOT_SECTOR = 0x2000000;
-    final static int SECTOR_SIZE = 100;
+    final static int SECTOR_SIZE = 0x200000;
 
     private CPU processor;
     private Memory ram;
