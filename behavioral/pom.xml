@@ -11,6 +11,7 @@
 
     <artifactId>behavioral</artifactId>
     <packaging>pom</packaging>
+    <description>行为型模式</description>
 
     <modules>
     </modules>

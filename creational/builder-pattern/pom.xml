@@ -10,6 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>builder-pattern</artifactId>
-
+    <description>建造者模式</description>
 
 </project>

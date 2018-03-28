@@ -11,6 +11,7 @@
 
     <artifactId>creational</artifactId>
     <packaging>pom</packaging>
+    <description>创建型模式</description>
 
     <modules>
         <module>abstract-factory-pattern</module>

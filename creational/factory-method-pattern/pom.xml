@@ -10,6 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>factory-method-pattern</artifactId>
-
+    <description>工厂方法模式</description>
 
 </project>

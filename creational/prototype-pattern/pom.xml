@@ -10,6 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>prototype-pattern</artifactId>
-
+    <description>原型模式</description>
 
 </project>

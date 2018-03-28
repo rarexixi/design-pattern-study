@@ -10,5 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>composite-pattern</artifactId>
+    <description>组合模式</description>
     
 </project>

@@ -10,6 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>facade-pattern</artifactId>
-
+    <description>外观模式</description>
 
 </project>
