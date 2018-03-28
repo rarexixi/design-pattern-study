@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>design-pattern-study</artifactId>
+        <artifactId>structural</artifactId>
         <groupId>org.xi</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>structural</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>decorator-pattern</artifactId>
 
-    <modules>
-        <module>adapter-pattern</module>
-        <module>bridge-pattern</module>
-        <module>composite-pattern</module>
-        <module>decorator-pattern</module>
-    </modules>
+
 </project>
