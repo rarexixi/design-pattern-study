@@ -10,14 +10,9 @@ import org.xi.dynamicproxy.annotation.Get;
 import org.xi.dynamicproxy.annotation.Param;
 import org.xi.dynamicproxy.model.GetRequestTemplate;
 
-import java.io.ByteArrayOutputStream;
-import java.io.OutputStream;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
